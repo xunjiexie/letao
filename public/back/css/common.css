@@ -1,10 +1,137 @@
-body {
+.body_bg {
   background-color: #222D32;
 }
 html, body {
   width:100%;
   height:100%;
 }
+a:hover,
+a:active,
+a:visited,
+a:link {
+  text-decoration:none;
+}
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th  {
+  text-align:center;
+  vertical-align: middle;
+}
+
 .mt_150 {
   margin-top:150px;
+}
+.sidebar {
+  width:180px;
+  height:100%;
+  background-color: #222D32;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:999;
+  transition:all 1s;
+}
+.sidebar.hidemenu {
+  left:-180px;
+}
+.sidebar .brand {
+  width:180px;
+  height: 50px;
+  background-color: #367FA9;
+  text-align:center;
+  line-height:50px;
+  font-size: 20px;
+}
+.sidebar .brand a {
+  color:#fff;
+}
+.sidebar .user {
+  text-align:center;
+  padding:50px 0;
+}
+.sidebar .user img {
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  margin:0 auto;
+}
+.sidebar .user p {
+  color:#fff;
+  font-size: 18px;
+}
+.sidebar .nav a {
+  display:block;
+  width:180px;
+  height:40px;
+  line-height:40px;
+  font-size: 14px;
+  color:#fff;
+  padding-left:45px;
+  border-left:3px solid transparent;
+}
+.sidebar .nav a.active {
+  border-left:3px solid #367FA9;
+  background-color: #1D1F21;
+}
+.sidebar .nav .child {
+  display:none;
+}
+.sidebar .nav .child a {
+  padding-left:60px;
+}
+.main {
+  height:1000px;
+  background-color: #fff;
+  padding-left:180px;
+  padding-top:50px;
+  transition:all 1s;
+}
+.main.hidemenu {
+  padding-left:0;
+}
+.main .topbar {
+  height:50px;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:666;
+  padding-left:180px;
+  background-color: #3C8DBC;
+  width:100%;
+  transition:all 1s;
+}
+.main .topbar.hidemenu {
+  padding-left:0px;
+}
+.main .topbar a {
+  width:50px;
+  height:50px;
+  font-size: 20px;
+  color:#fff;
+  text-align:center;
+  line-height:50px;
+}
+.main .content {
+  padding:0 20px;
+}
+.main .content .breadcrumb {
+  height:40px;
+  background-color: #F5F5F5;
+  margin:20px 0;
+  border-radius:5px;
+}
+.main .content .breadcrumb li a {
+  color:#3C8DBC;
+}
+.main .content .content_echarts {
+  
+}
+#myModalLabel {
+  font-size: 20px;;
+}
+.modal-body{
+  color:#B14442;
 }
