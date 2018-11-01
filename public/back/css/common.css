@@ -126,12 +126,12 @@ a:link {
 .main .content .breadcrumb li a {
   color:#3C8DBC;
 }
-.main .content .content_echarts {
-  
-}
 #myModalLabel {
   font-size: 20px;;
 }
 .modal-body{
   color:#B14442;
+}
+.main .content ol {
+  line-height:24px;
 }
