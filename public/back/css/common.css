@@ -20,7 +20,9 @@ a:link {
   text-align:center;
   vertical-align: middle;
 }
-
+input {
+  border:1px solid #ccc;
+}
 .mt_150 {
   margin-top:150px;
 }
@@ -134,4 +136,20 @@ a:link {
 }
 .main .content ol {
   line-height:24px;
+}
+.first_btn {
+  margin-bottom:20px;
+}
+.second_table img {
+  width:auto;
+  height:50px;
+  margin:0 auto;
+}
+.dropdownIcon {
+  font-size: 12px;
+}
+#imgBox img {
+  width:100px;
+  height:100px;
+  float:left;
 }

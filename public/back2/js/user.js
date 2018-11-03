@@ -83,9 +83,7 @@ $(function() {
       },
       dataType: "json",
       success: function( info ) {
-        // console.log( info );
-        console.log(currentId);
-        console.log(isDelete);
+        console.log( info );
         // 关闭模态框
         $('#userModal').modal("hide");
 

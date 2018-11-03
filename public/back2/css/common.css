@@ -176,4 +176,5 @@ img {
 #addModal img {
   width: auto;
   height: 100px;
+  display: inline-block;
 }
